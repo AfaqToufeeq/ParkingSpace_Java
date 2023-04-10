@@ -54,7 +54,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/desCity"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="7dp"
                     android:spinnerMode="dropdown" />
 
                 <ImageView
@@ -180,6 +180,7 @@
                             android:text="Car Parking"
                             android:layout_marginTop="5dp"
                             android:textSize="18dp"
+                            android:layout_marginLeft="7dp"
                             android:layout_gravity="left"
                             android:textColor="@color/header_main_color" />
 
@@ -187,6 +188,7 @@
                             android:id="@+id/car"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:padding="15dp"
                             android:src="@drawable/car2" />
 
 

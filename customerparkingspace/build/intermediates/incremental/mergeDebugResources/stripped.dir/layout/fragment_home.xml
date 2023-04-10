@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/cardBackgroundColor"
+    tools:context="app.developer.parkingspace.ui.fragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            android:padding="12dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:padding="6dp"
+                    android:text="Select Your City"
+                    android:textColor="@color/header_main_color"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/desCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView"
+                    android:padding="2dp"
+                    android:text="Select the city to get the best parking \nspaces near your locality" />
+
+                <Spinner
+                    android:id="@+id/citySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/desCity"
+                    android:layout_marginTop="7dp"
+                    android:spinnerMode="dropdown" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:padding="2dp"
+                    android:src="@drawable/city" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/eDoc_btn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:cardElevation="2dp"-->
+<!--            app:cardCornerRadius="6dp"-->
+<!--            android:elevation="6dp"-->
+<!--            android:padding="12dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginBottom="4dp"-->
+<!--            android:layout_marginLeft="4dp"-->
+<!--            android:layout_marginRight="4dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_margin="6dp"-->
+<!--                android:layout_marginTop="4dp">-->
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textViewOffline"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:fontFamily="@font/poppins_semibold"-->
+<!--                    android:padding="6dp"-->
+<!--                    android:text="Vehicle Type"-->
+<!--                    android:textColor="@color/header_main_color"-->
+<!--                    android:textSize="18dp" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/textViewOffline"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:text="rSelect your vehicle type before operating anu futhe" />-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageViewOffline"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="80dp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:padding="2dp"-->
+<!--                    android:src="@drawable/city" />-->
+<!--            </RelativeLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="2dp"
+            android:elevation="6dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="6dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:padding="12dp">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:fontFamily="@font/poppins_semibold"
+                android:padding="6dp"
+                android:text="@string/looking_for_a_parking"
+                android:textColor="@color/header_main_color"
+                android:textSize="18dp"
+                />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:columnOrderPreserved="false"
+                android:rowCount="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/carParking_CV"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginRight="13dp"
+                    app:cardElevation="8dp"
+                    android:elevation="7dp"
+                    app:cardBackgroundColor="#FFF7DF"
+                    app:cardCornerRadius="6dp"
+                    android:layout_gravity="center"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Car Parking"
+                            android:layout_marginTop="5dp"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="7dp"
+                            android:layout_gravity="left"
+                            android:textColor="@color/header_main_color" />
+
+                        <ImageView
+                            android:id="@+id/car"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:src="@drawable/car2" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/bikeParking_CV"
+                    android:layout_width="160dp"
+                    android:layout_height="190dp"
+                    app:cardElevation="8dp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="6dp"
+                    android:layout_marginRight="20dp"
+                    app:cardBackgroundColor="#F2EEFF"
+                    android:elevation="7dp"
+                    android:padding="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="186dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:text="Bike Parking"
+                            android:textColor="@color/header_main_color"
+                            android:textSize="16dp" />
+
+                        <ImageView
+                            android:id="@+id/btn_bike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bike" />
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="4dp"
+                app:cardBackgroundColor="#F3F3F3"
+                android:padding="4dp"
+                android:layout_marginTop="255dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp">
+
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="2dp"
+            app:cardCornerRadius="6dp"
+            android:elevation="6dp"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:layout_marginTop="4dp">
+
+
+                <TextView
+                    android:id="@+id/aboutUS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:padding="6dp"
+                    android:text="About Us"
+                    android:textColor="@color/header_main_color"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/aboutUsDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutUS"
+                    android:padding="2dp"
+                    android:text="Click here to know about the app" />
+
+
+                <ImageView
+                    android:id="@+id/imageViewAboutUs"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:padding="2dp"
+                    android:src="@drawable/aboutus" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_aboutUs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutUsDesc"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/darkblue_btn"
+                    android:padding="1dp"
+                    android:textAllCaps="false"
+                    android:text="Click"
+                    android:textColor="#DFDFDF"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

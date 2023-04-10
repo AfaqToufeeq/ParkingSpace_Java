@@ -134,10 +134,10 @@ public class HomeFragment extends Fragment {
 
     private void addCities() {
         pm.citiesList.clear();
-        pm.citiesList.add("Lahore");
-        pm.citiesList.add("Faisalabad");
-        pm.citiesList.add("Karachi");
-        pm.citiesList.add("Islamabad");
+        pm.citiesList.add("Manama");
+        pm.citiesList.add("Riffa");
+        pm.citiesList.add("Sitra");
+        pm.citiesList.add("Jidhafs");
 
         //Calling function to upload cities on cloud
         uploadCityDetails(pm.citiesList);
@@ -189,7 +189,6 @@ public class HomeFragment extends Fragment {
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
 
                 pm.cityName=pm.citiesList.get(position);
-
 
             }
             @Override

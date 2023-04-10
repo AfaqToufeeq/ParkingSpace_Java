@@ -77,6 +77,7 @@ dimen _75sdp
 dimen _8sdp
 drawable aboutus
 drawable add_item_icon
+drawable addpark
 drawable background_elevation
 drawable baseline_bookmark_add_24
 drawable bike

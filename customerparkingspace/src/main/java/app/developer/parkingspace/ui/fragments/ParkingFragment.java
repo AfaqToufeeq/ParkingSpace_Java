@@ -1,5 +1,6 @@
 package app.developer.parkingspace.ui.fragments;
 
+import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
@@ -148,6 +149,7 @@ public class ParkingFragment extends Fragment implements onParkingItemClick {
         });
     }
 
+    @SuppressLint("SetTextI18n")
     private void checkParkingData() {
         if(Parking.equals("booked"))
         {
