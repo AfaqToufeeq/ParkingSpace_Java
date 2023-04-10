@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\adminparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\adminparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\d771c20bbfb24bdd0fdebeadef577713\\transformed\\material-1.8.0\\res\\values-large-v4\\values-large-v4.xml",

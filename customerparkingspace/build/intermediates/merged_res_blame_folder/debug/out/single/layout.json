@@ -1,62 +1,62 @@
 [
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\booked_layout.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\booked_layout.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_booked_parking.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_booked_parking.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_parking.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_parking.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_progress_dialog.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\layout_progress_dialog.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\parkinglot_layout.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\parkinglot_layout.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\parkinglot_layout.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\parkinglot_layout.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\aboutus_popup_screen.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\aboutus_popup_screen.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_booked_parking.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_booked_parking.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\booked_layout.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\booked_layout.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user_profile.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_user_profile.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\area_layout.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\area_layout.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dashboard.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_dashboard.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user_profile.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_user_profile.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_city_area.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_city_area.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialog_layout_view.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\custom_dialog_layout_view.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_dialog_layout_view.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\custom_dialog_layout_view.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\area_layout.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\area_layout.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_parking.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_parking.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_city_area.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\fragment_city_area.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\aboutus_popup_screen.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\aboutus_popup_screen.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\USER\\Desktop\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_progress_dialog.xml",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\layout_progress_dialog.xml"
     }
 ]
