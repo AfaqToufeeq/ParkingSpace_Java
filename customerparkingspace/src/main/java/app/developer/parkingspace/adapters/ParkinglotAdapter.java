@@ -33,6 +33,7 @@ public class ParkinglotAdapter extends RecyclerView.Adapter<ParkinglotAdapter.Vi
     private int fetchedParkingSlot;
     private String parking=null;
     private Boolean checkSingleClick=false;
+    public static int count=0;
     public ParkinglotAdapter(Context context, ArrayList<ParkingSlot> parkingList, int fetchedParkingSlot, onParkingItemClick clickListener) {
         this.context = context;
         this.parkingList = parkingList;
@@ -66,12 +67,19 @@ public class ParkinglotAdapter extends RecyclerView.Adapter<ParkinglotAdapter.Vi
         }
 
 
+        //Calculating prices
+        ColorDrawable viewColor = (ColorDrawable) holder.block_FL.getBackground();
+        if(viewColor.getColor() == context.getResources().getColor(R.color.lightyellowcolor)){
+            count++;
+        }
+
+
         holder.block_TV.setText("P"+(position+1));
 
         holder.itemView.setOnClickListener(view->{
-            ColorDrawable viewColor = (ColorDrawable) holder.block_FL.getBackground();
+            ColorDrawable viewColor1 = (ColorDrawable) holder.block_FL.getBackground();
 
-            if(viewColor.getColor() == context.getResources().getColor(R.color.lightyellowcolor))       //For yellow color //parking space
+            if(viewColor1.getColor() == context.getResources().getColor(R.color.lightyellowcolor))       //For yellow color //parking space
             {
                if (!checkSingleClick)
                {
@@ -83,7 +91,7 @@ public class ParkinglotAdapter extends RecyclerView.Adapter<ParkinglotAdapter.Vi
                }else {
                    parking="notBooked";
                }
-            }else if(viewColor.getColor() != context.getResources().getColor(R.color.gray)){
+            }else if(viewColor1.getColor() != context.getResources().getColor(R.color.gray)){
                 holder.block_FL.setBackgroundColor(Color.parseColor("#40FFC107"));
                 holder.block_IV.setImageResource(R.drawable.parking1);
                 holder.block_IV.setScaleX(1);

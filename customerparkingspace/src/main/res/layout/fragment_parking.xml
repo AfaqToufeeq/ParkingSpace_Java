@@ -276,8 +276,10 @@
                                 android:id="@+id/priceTV"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginTop="7dp"
                                 android:textColor="@color/lightOrange"
-                                android:textSize="@dimen/_16sdp"
+                                android:textSize="16dp"
+                                android:layout_marginLeft="7dp"
                                 android:text="Total Price: "/>
 
                         </LinearLayout>

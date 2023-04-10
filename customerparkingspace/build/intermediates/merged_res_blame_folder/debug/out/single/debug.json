@@ -148,12 +148,12 @@
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\drawable\\ic_baseline_arrow_upward_24.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\merged_res\\debug\\drawable_ic_back_img.xml.flat",
-        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\drawable\\ic_back_img.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\merged_res\\debug\\layout_area_layout.xml.flat",
         "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\layout\\area_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\merged_res\\debug\\drawable_ic_back_img.xml.flat",
+        "source": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\src\\main\\res\\drawable\\ic_back_img.xml"
     },
     {
         "merged": "C:\\Users\\USER\\AndroidStudioProjects\\Parking-Spaces-Java\\customerparkingspace\\build\\intermediates\\merged_res\\debug\\font_googlesans_italic.ttf.flat",

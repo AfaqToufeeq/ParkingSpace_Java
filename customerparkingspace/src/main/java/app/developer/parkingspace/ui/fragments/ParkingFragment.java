@@ -44,11 +44,10 @@ public class ParkingFragment extends Fragment implements onParkingItemClick {
     RelativeLayout ownerInfo_RL;
     EditText fullName,email,phone,carModelNo;
     TextView datePickerTV,timePickerTV,priceTV;
-    String Position=null,Parking=null,FullName=null,Email=null,Phone=null,CarModelNo=null,TimeDate=null;
+    String Position=null,Parking=null,FullName=null,Email=null,Phone=null,CarModelNo=null,TimeDate=null,Price=null;
     int fetchedParkingSlot;
     Button confirmParking,backButton,proceed,datePickerButton,timePickerButton;
     Dialog loader;
-    public static String Price="5.00";
 
 
     @Override
@@ -155,7 +154,16 @@ public class ParkingFragment extends Fragment implements onParkingItemClick {
             parkingRecyclerview.setVisibility(View.GONE);
             confirmParking.setVisibility(View.GONE);
             ownerInfo_RL.setVisibility(View.VISIBLE);
-            priceTV.setText("price:     "+Price+" BHD/hr" );
+
+            if(ParkinglotAdapter.count<fetchedParkingSlot/2)
+            {
+                Price="5.00";
+                Price = String.valueOf(Double.parseDouble(Price)+3.00);
+            }else{
+                Price="5.00";
+            }
+
+            priceTV.setText("price:                                "+Price+" BHD/24hr" );
         }
     }
 
