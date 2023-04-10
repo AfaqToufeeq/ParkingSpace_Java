@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Parking Spaces</string>
+    <string name="find_parking_near_you">Find Parking Near You</string>
+    <string name="parking_spaces">Parking Spaces</string>
+    <string name="while_some_people_have_important_appointments_and_there_might_be_some_congestion_where_they_want_to_go_the_project_s_purpose_is_to_save_time_and_make_finding_a_park_easier_hence_the_parking_is_reserved_to_prevent_time_from_being_spent">While some people have important appointments and there might be some congestion where they want to go, the project\'s purpose is to save time and make finding a park easier. Hence, the parking is reserved to prevent time from being spent.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="looking_for_a_parking">Looking for a parking</string>
+    <string name="area">Area</string>
+    <string name="no_files_found">no files found</string>
+    <string name="enter_nyour_info_n_amp_vehcial_n_model"><![CDATA[Enter\nyour info\n& vehcial \n model!]]></string>
+    <string name="aboutUS">This project is for a mobile application which is about Find Parking at everywhere that a person goes to such as malls and hospitals and so on .This application will enable registered people on that app to find and reserve the park easily and saves people time . The goal of this project is to save time and ease of obtaining a park, as some people have important appointments and there may be some crowding in the place they want to go to, so the parking is reserved to ensure that his time is not wasted. Parking Spaces is a mobile application which has a very special and good features and it is makes people life’s easy and comfortable to book a park .This application will allow people to booking ,cancel booking , pay for the park and select the park section . but first of all people should share their location on this app and register on it.</string>
+</resources>

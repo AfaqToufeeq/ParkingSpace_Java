@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/baloo</item>
+    </array>
+    <color name="DarkBlue">#250285</color>
+    <color name="OffWhite">#FAF9F6</color>
+    <color name="Red">#EB0D0D</color>
+    <color name="SplashTitleColor">#61226C</color>
+    <color name="active">#50C2C9</color>
+    <color name="black">#FF000000</color>
+    <color name="blueColor">#4D43FA</color>
+    <color name="blueish">#17A2C0</color>
+    <color name="cardBackgroundColor">#F3F3F3</color>
+    <color name="colorPrimary">#F323283A</color>
+    <color name="colorPrimaryDark">#23283a</color>
+    <color name="darkgray">#B2000000</color>
+    <color name="darkgreen">#026909</color>
+    <color name="defaultColor">#000000</color>
+    <color name="dialogbgclr">#FAFAFA</color>
+    <color name="fadegray">#1D000000</color>
+    <color name="gray">#7E000000</color>
+    <color name="green">#5FB709</color>
+    <color name="header_main_color">#237AE0</color>
+    <color name="inactive">#C4C4C4</color>
+    <color name="jer_transparentGray">#5623283A</color>
+    <color name="lightFadeBlue">#AC23283A</color>
+    <color name="lightOrange">#F44336</color>
+    <color name="lightgray">#12ACAEAF</color>
+    <color name="lightyellowcolor">#40FFC107</color>
+    <color name="mainColorBlue">#5335FF</color>
+    <color name="mainColorYellow">#ffbf00</color>
+    <color name="pinkShade">#BC3261</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red_ripple">#11D71515</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="_100sdp">100dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_10ssp">10dp</dimen>
+    <dimen name="_12sdp">12dp</dimen>
+    <dimen name="_12ssp">12dp</dimen>
+    <dimen name="_14sdp">14dp</dimen>
+    <dimen name="_150sdp">150dp</dimen>
+    <dimen name="_15sdp">15dp</dimen>
+    <dimen name="_16sdp">16dp</dimen>
+    <dimen name="_18sdp">18dp</dimen>
+    <dimen name="_18ssp">18dp</dimen>
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="_200sdp">200dp</dimen>
+    <dimen name="_20sdp">20dp</dimen>
+    <dimen name="_25sdp">25dp</dimen>
+    <dimen name="_28sdp">28dp</dimen>
+    <dimen name="_2sdp">2dp</dimen>
+    <dimen name="_30sdp">30dp</dimen>
+    <dimen name="_35sdp">25dp</dimen>
+    <dimen name="_40sdp">40dp</dimen>
+    <dimen name="_4sdp">4dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_60sdp">60dp</dimen>
+    <dimen name="_6sdp">6dp</dimen>
+    <dimen name="_70sdp">70dp</dimen>
+    <dimen name="_75sdp">75dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <string name="app_name">Admin Parking Spaces</string>
+    <string name="area">Area</string>
+    <string name="default_web_client_id" translatable="false">6048525462-9a4mt2opvrrg28prqj4lhqt5de6fk2iq.apps.googleusercontent.com</string>
+    <string name="enter_nyour_info_n_amp_vehcial_n_model"><![CDATA[Enter\nyour info\n& vehicle \n model!]]></string>
+    <string name="find_parking_near_you">Find Parking Near You</string>
+    <string name="firebase_database_url" translatable="false">https://parking-spaces-2453b-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">6048525462</string>
+    <string name="google_api_key" translatable="false">AIzaSyCn2OADy3Mx9IpLqiUj8rZvwBQ0zTwUg4o</string>
+    <string name="google_app_id" translatable="false">1:6048525462:android:13c12152ee8831e62ce6b7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCn2OADy3Mx9IpLqiUj8rZvwBQ0zTwUg4o</string>
+    <string name="google_storage_bucket" translatable="false">parking-spaces-2453b.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="looking_for_a_parking">Looking for a parking</string>
+    <string name="no_files_found">no files found</string>
+    <string name="parking_spaces">Parking Spaces</string>
+    <string name="project_id" translatable="false">parking-spaces-2453b</string>
+    <string name="while_some_people_have_important_appointments_and_there_might_be_some_congestion_where_they_want_to_go_the_project_s_purpose_is_to_save_time_and_make_finding_a_park_easier_hence_the_parking_is_reserved_to_prevent_time_from_being_spent">While some people have important appointments and there might be some congestion where they want to go, the project\'s purpose is to save time and make finding a park easier. Hence, the parking is reserved to prevent time from being spent.</string>
+    <style name="SmoothCheckBoxStyleContact">
+        <item name="color_checked">@color/Red</item>
+        <item name="color_unchecked">#EDEDED</item>
+        <item name="color_unchecked_stroke">#EDEDED</item>
+        <item name="stroke_width">0.1dp</item>
+        <item name="color_tick">@color/white</item>
+    </style>
+    <style name="Theme.ParkingSpaces" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#E4E4E4</item>
+        <item name="colorPrimaryVariant">@color/header_main_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="n">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <declare-styleable name="SmoothCheckBox">
+        <attr format="integer" name="duration"/>
+        <attr format="dimension" name="stroke_width"/>
+        <attr format="color" name="color_tick"/>
+        <attr format="color" name="color_checked"/>
+        <attr format="color" name="color_unchecked"/>
+        <attr format="color" name="color_unchecked_stroke"/>
+    </declare-styleable>
+</resources>

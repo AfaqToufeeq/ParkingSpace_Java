@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">6048525462-9a4mt2opvrrg28prqj4lhqt5de6fk2iq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">6048525462</string>
+    <string name="google_api_key" translatable="false">AIzaSyCn2OADy3Mx9IpLqiUj8rZvwBQ0zTwUg4o</string>
+    <string name="google_app_id" translatable="false">1:6048525462:android:8224637b85f64d242ce6b7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCn2OADy3Mx9IpLqiUj8rZvwBQ0zTwUg4o</string>
+    <string name="google_storage_bucket" translatable="false">parking-spaces-2453b.appspot.com</string>
+    <string name="project_id" translatable="false">parking-spaces-2453b</string>
+</resources>

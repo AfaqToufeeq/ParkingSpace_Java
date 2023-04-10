@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="0dp"
+    android:layout_margin="3dp"
+    android:padding="3dp"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/block_FL"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="wrap_content"
+        android:background="@color/lightyellowcolor"
+        android:layout_weight="0.4">
+
+        <ImageView
+            android:id="@+id/block_IV"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:src="@drawable/car3"
+            android:scaleX="-1"
+            android:background="@drawable/trans_square_button"
+            />
+
+        <TextView
+            android:id="@+id/block_TV"
+           android:layout_width="match_parent"
+            android:paddingTop="2dp"
+            android:layout_height="80dp"
+            android:gravity="right"
+            android:textSize="13dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/lightFadeBlue"
+            android:text="A01" />
+
+    </FrameLayout>
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="@dimen/_50sdp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="0.4">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/Bblock_IV"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:src="@drawable/parking5"-->
+<!--            android:layout_marginLeft="40dp"-->
+<!--            android:background="@drawable/trans_square_button" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/Bblock_TV"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:paddingTop="2dp"-->
+<!--            android:gravity="left"-->
+<!--            android:textSize="13dp"-->
+<!--            android:textColor="@color/lightFadeBlue"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:text="A02" />-->
+
+<!--    </FrameLayout>-->
+
+
+
+</LinearLayout>

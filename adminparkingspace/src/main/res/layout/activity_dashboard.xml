@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.developer.adminparkingspace.ui.activities.DashboardActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dashboardHeader"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:visibility="visible"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Parking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_semibold"
+                android:letterSpacing="0.02"
+                android:text="Parking"
+                android:textColor="@color/header_main_color"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/spaces"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/Parking"
+                android:focusable="true"
+                android:fontFamily="@font/poppins_semibold"
+                android:letterSpacing="0.02"
+                android:text="Spaces"
+                android:textColor="@color/mainColorYellow"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/rec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <Spinner
+                    android:id="@+id/profileSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:focusable="true"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:padding="4dp"
+                    android:text="Sign Up"
+                    android:textSize="16dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/dashBoard_FL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavBar"
+        android:layout_below="@id/dashboardHeader" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_elevation"
+        android:elevation="20dp"
+        android:layout_alignParentBottom="true"
+        app:elevation="20dp"
+        app:itemIconTint="@color/header_main_color"
+        app:itemRippleColor="@color/header_main_color"
+        app:itemTextColor="@color/header_main_color"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

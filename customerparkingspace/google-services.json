@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "6048525462",
+    "project_id": "parking-spaces-2453b",
+    "storage_bucket": "parking-spaces-2453b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6048525462:android:8224637b85f64d242ce6b7",
+        "android_client_info": {
+          "package_name": "app.developer.parkingspaces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6048525462-svnur4qvq066d5fi64aml0is41sal6uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.developer.parkingspaces",
+            "certificate_hash": "2e6c6f9b90057303a9635d1b49426152c7134a46"
+          }
+        },
+        {
+          "client_id": "6048525462-9a4mt2opvrrg28prqj4lhqt5de6fk2iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn2OADy3Mx9IpLqiUj8rZvwBQ0zTwUg4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6048525462-9a4mt2opvrrg28prqj4lhqt5de6fk2iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
